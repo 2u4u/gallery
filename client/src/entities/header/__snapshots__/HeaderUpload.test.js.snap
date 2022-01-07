@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header upload component  matches snapshot 1`] = `
+<button
+  className="header__upload upload"
+  onClick={[Function]}
+>
+  <img
+    alt="upload file"
+    className="upload__img"
+    src="./img/upload.svg"
+  />
+  Upload file
+</button>
+`;

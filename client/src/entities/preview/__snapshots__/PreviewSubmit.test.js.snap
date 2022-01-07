@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preview submit component  matches snapshot 1`] = `
+<div
+  className="preview__block preview__block--footer"
+>
+  <button
+    className="preview__button"
+    onClick={[Function]}
+    type="button"
+  >
+    Upload
+  </button>
+</div>
+`;

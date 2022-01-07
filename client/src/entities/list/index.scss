@@ -1,0 +1,32 @@
+.list {
+    height: 100px;
+    background-color: #1c1c1c;
+    border-bottom: 2px solid #151515;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    &__img {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+    }
+    &__icon {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        position: relative;
+    }
+    &__duration {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        text-shadow: 0px 2px 5px #0e0e0e;
+    }
+}

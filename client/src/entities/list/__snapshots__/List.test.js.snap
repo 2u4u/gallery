@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component  matches snapshot 1`] = `
+<div
+  className="list"
+  onClick={[Function]}
+>
+  <div
+    className="list__img"
+    style={
+      Object {
+        "backgroundImage": "url(https://uae-gallery-test-bucket.s3.eu-central-1.amazonaws.com/cat1.png)",
+      }
+    }
+  />
+  <span>
+    test image
+  </span>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Files viewer component  matches snapshot 1`] = `
+<div
+  className="file-viewer"
+>
+  <a
+    className="file-viewer__download"
+    rel="noreferrer"
+    target="_blank"
+  >
+    Download
+  </a>
+</div>
+`;

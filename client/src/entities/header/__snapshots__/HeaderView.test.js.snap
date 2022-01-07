@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header view component  matches snapshot 1`] = `
+<div
+  className="items-view"
+>
+  <button
+    className="items-view__item"
+    onClick={[Function]}
+    type="button"
+  >
+    <img
+      alt="list"
+      src="./img/list.svg"
+    />
+  </button>
+  <button
+    className="items-view__item"
+    onClick={[Function]}
+    type="button"
+  >
+    <img
+      alt="grid"
+      src="./img/grid-active.svg"
+    />
+  </button>
+</div>
+`;

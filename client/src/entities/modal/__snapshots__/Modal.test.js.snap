@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component  matches snapshot 1`] = `
+<div
+  className="modal"
+>
+  <div
+    className="modal__backdrop"
+  />
+  <div
+    className="modal__content"
+  >
+    <h2
+      className="modal__header"
+    >
+      Hello world
+    </h2>
+    <button
+      className="modal__close"
+      onClick={[Function]}
+    >
+      <img
+        alt="close modal"
+        src="./img/close.svg"
+      />
+    </button>
+    <div>
+      some content
+    </div>
+  </div>
+</div>
+`;

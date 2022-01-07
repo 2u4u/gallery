@@ -1,0 +1,21 @@
+{
+  "name": "gallery",
+  "main": "./server/index.js",
+  "scripts": {
+    "server:dev": "nodemon --watch 'server/**' --ext 'ts,json' --exec 'ts-node ./server/index.ts'",
+    "client:dev": "npm start --prefix client",
+    "dev": "concurrently 'npm run server:dev' 'npm run client:dev'",
+    "client:install": "npm install --prefix client",
+    "server:install": "npm install --prefix server",
+    "server:build": "npm run build --prefix server",
+    "client:build": "npm run build --prefix client",
+    "build": "npm run client:install && npm run client:build && npm run server:install && npm run server:build",
+    "start": "NODE_ENV=production node server/dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.9",
+    "typescript": "^4.4.4"
+  }
+}

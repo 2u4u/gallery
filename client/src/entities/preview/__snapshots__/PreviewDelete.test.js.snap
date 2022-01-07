@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preview delete component  matches snapshot 1`] = `
+<button
+  onClick={[Function]}
+>
+  <img
+    alt="close modal"
+    className="preview__close"
+    src="./img/close.svg"
+  />
+</button>
+`;

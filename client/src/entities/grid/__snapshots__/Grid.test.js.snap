@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid component  matches snapshot 1`] = `
+<div
+  className="grid grid--image"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url(https://uae-gallery-test-bucket.s3.eu-central-1.amazonaws.com/cat1.png)",
+    }
+  }
+>
+  <div
+    className="grid__content"
+  />
+</div>
+`;

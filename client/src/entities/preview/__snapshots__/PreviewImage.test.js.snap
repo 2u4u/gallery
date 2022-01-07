@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preview image component  matches snapshot 1`] = `
+<div
+  className="preview__image"
+  style={
+    Object {
+      "backgroundImage": "url(https://uae-gallery-test-bucket.s3.eu-central-1.amazonaws.com/cat1.png)",
+    }
+  }
+/>
+`;

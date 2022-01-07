@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header search component  matches snapshot 1`] = `
+<div
+  className="header__search search"
+>
+  <input
+    className="search__input"
+    id="search"
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+  />
+  <label
+    className="search__label"
+    htmlFor="search"
+  >
+    <img
+      alt="search"
+      src="./img/search.svg"
+    />
+  </label>
+  <div
+    className="search__filter filter"
+  >
+    <div
+      className="filter__block"
+      onClick={[Function]}
+    >
+      <span
+        className="filter__text"
+      />
+      <button
+        className="filter__button"
+        type="button"
+      >
+        <img
+          alt="filter"
+          src="./img/arrow-down.svg"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

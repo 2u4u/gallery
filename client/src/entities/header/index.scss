@@ -1,0 +1,181 @@
+.header {
+    padding: 10px 0 20px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background: #151515;
+    &__block {
+        background-color: #1b1b1b;
+        border-radius: 20px;
+        border: 1px solid #2e2e2e;
+        box-shadow: 0px 3px 13px #0e0e0e;
+        padding: 20px;
+    }
+    &__actions {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 20px;
+        width: 100%;
+        @media screen and (min-width: 768px) {
+            padding: 0;
+            width: auto;
+        }
+    }
+    &__upload {
+        margin-left: 25px;
+    }
+    &__mobile-menu {
+        display: none;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        position: absolute;
+        z-index: 9;
+        top: 90px;
+        left: 0;
+        width: calc(100vw - 20px);
+        background-color: #1b1b1b;
+        border-radius: 20px;
+        border: 1px solid #2e2e2e;
+        box-shadow: 0px 3px 13px #0e0e0e;
+        margin: 0 10px;
+        @media screen and (min-width: 768px) {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            top: auto;
+            left: auto;
+            width: auto;
+            background: transparent;
+            border: none;
+            margin: 0;
+            box-shadow: none;
+        }
+        &--open {
+            display: flex;
+        }
+    }
+    &__search {
+        margin: 0 20px 20px;
+        @media screen and (min-width: 768px) {
+            margin: 0;
+        }
+    }
+    &__mobile-button {
+        display: inline;
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    }
+}
+.items-view {
+    display: flex;
+    &__item {
+        margin-right: 25px;
+    }
+}
+.upload {
+    display: flex;
+    align-items: center;
+    color: #DD5D5A;
+    &__img {
+        margin-right: 10px;
+    }
+}
+.search {
+    position: relative;
+    width: 300px;
+    border-radius: 50px;
+    border: 1px solid #2e2e2e;
+    display: flex;
+    @media screen and (min-width: 768px) {
+        border-radius: 20px;
+    }
+    &__label {
+        position: absolute;
+        top: 18px;
+        left: 12px;
+        @media screen and (min-width: 768px) {
+            top: 10px;
+        }
+    }
+    &__input {
+        background: transparent;
+        padding: 17px 10px 17px 36px;
+        background-color: #1b1b1b;
+        border-radius: 50px 0 0 50px;
+        border: none;
+        line-height: 18px;
+        position: relative;
+        width: 200px;
+        @media screen and (min-width: 768px) {
+            padding: 7px 10px 7px 36px;
+            border-radius: 20px 0 0 20px;
+        }
+    }
+}
+.filter {
+    width: 100px;
+    position: relative;
+    flex-shrink: 0;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1px;
+        height: 100%;
+        background-color: #2e2e2e;
+    } 
+    &__block {
+        cursor: pointer;
+    }
+    &__content {
+        background-color: #1b1b1b;
+        border-radius: 0 20px 20px 0;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        position: absolute;
+        right: 0;
+        box-sizing: border-box;
+        top: 60px;
+        border: 1px solid #2e2e2e;
+        box-shadow: 0px 3px 13px #0e0e0e;
+        z-index: 1;
+        @media screen and (min-width: 768px) {
+            top: 40px;
+        }
+    }
+    &__item {
+        margin: 5px 0;
+        cursor: pointer;
+        text-align: left;
+        color: #8E8E8E;
+        font-size: 14px;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+    &__text {
+        line-height: 52px;
+        font-size: 14px;
+        padding: 0 0 0 10px;
+        @media screen and (min-width: 768px) {
+            line-height: 32px;
+        }
+    }
+    &__button {
+        position: absolute;
+        right: 10px;
+        top: 17px;
+        @media screen and (min-width: 768px) {
+            top: 5px;
+        }
+    }
+}

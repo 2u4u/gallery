@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component  matches snapshot 1`] = `
+<div
+  className="header__block"
+>
+  <button
+    className="header__mobile-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <img
+      alt="mobile menu"
+      className=""
+      src="./img/menu.svg"
+    />
+  </button>
+  <div
+    className="header__mobile-menu"
+  >
+    <div
+      className="header__actions"
+    >
+      <div
+        className="items-view"
+      >
+        <button
+          className="items-view__item"
+          onClick={[Function]}
+          type="button"
+        >
+          <img
+            alt="list"
+            src="./img/list.svg"
+          />
+        </button>
+        <button
+          className="items-view__item"
+          onClick={[Function]}
+          type="button"
+        >
+          <img
+            alt="grid"
+            src="./img/grid-active.svg"
+          />
+        </button>
+      </div>
+      <button
+        className="header__upload upload"
+        onClick={[Function]}
+      >
+        <img
+          alt="upload file"
+          className="upload__img"
+          src="./img/upload.svg"
+        />
+        Upload file
+      </button>
+    </div>
+    <div
+      className="header__search search"
+    >
+      <input
+        className="search__input"
+        id="search"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+      />
+      <label
+        className="search__label"
+        htmlFor="search"
+      >
+        <img
+          alt="search"
+          src="./img/search.svg"
+        />
+      </label>
+      <div
+        className="search__filter filter"
+      >
+        <div
+          className="filter__block"
+          onClick={[Function]}
+        >
+          <span
+            className="filter__text"
+          />
+          <button
+            className="filter__button"
+            type="button"
+          >
+            <img
+              alt="filter"
+              src="./img/arrow-down.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
